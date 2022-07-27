@@ -1,0 +1,53 @@
+.maintenance {
+  background-color: #00060a;
+  margin: -16px 0;
+  color: #D9F7F5;
+
+  &__wrapper {
+    display: flex;
+    align-items: center;
+  }
+
+
+  &__title {
+    font-size: 42px;
+    line-height: 50px;
+    font-weight: 600;
+    font-family: 'Poppins', sans-serif;
+    color: #2ADACC;
+    margin-bottom: 20px;
+
+    &-wrapper {
+      max-width: 375px;
+    }
+
+  }
+
+  &__text {
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 20px;
+    line-height: 30px;
+    font-weight: 400;
+  }
+
+  &__list-item {
+    list-style-type: none;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    max-width: 199px;
+    max-height: 92px;
+    border: 2px solid #202932;
+    border-radius: 8px;
+  }
+
+  &__name {
+    display: flex;
+
+  }
+
+  &__img {
+    margin-right: 10px;
+  }
+
+}

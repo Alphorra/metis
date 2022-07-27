@@ -1,0 +1,89 @@
+.capabilities {
+  color: #D9F7F5;
+  background-color: #00060a;
+
+  &__advantages {
+    max-width: 500px;
+  }
+
+  &__wrapper {
+    display: flex;
+    justify-content: space-between;
+    padding: 120px 0 150px;
+  }
+
+ &__title {
+   font-size: 42px;
+   font-weight: 600;
+   font-family: 'Poppins', sans-serif;
+   line-height: 63px;
+   color: #2ADACC;
+   margin-bottom: 20px;
+
+ }
+
+  &__text {
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 20px;
+    line-height: 27px;
+    margin-bottom: 32px;
+
+  }
+
+  &__table-top {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 32px;
+  }
+
+  &__table {
+    border: 2px solid #171E24;
+    padding: 36px;
+    border-radius: 8px;
+    text-align: left;
+  }
+
+  &__advantages-items {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+
+  &__advantages-item {
+    display: flex;
+    align-items: center;
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 28px;
+    font-weight: 700;
+    margin-bottom: 20px;
+    width: 48%;
+
+    &:last-child {
+      margin: 0;
+    }
+  }
+
+  &__advantages-text {
+    margin-left: 12px;
+  }
+
+  &__table-else {
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 16px;
+    line-height: 22px;
+    font-weight: 500;
+    border-collapse: collapse;
+
+  }
+
+  td {
+    max-width: 177px;
+    border: 1px solid #425667;
+  }
+
+}

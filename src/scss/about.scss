@@ -1,0 +1,35 @@
+.about {
+  position: relative;
+  background-color: #00060A;
+  margin-top: -2px;
+
+
+  &__wrapper {
+    padding: 105px 0 77px;
+  }
+
+  &__info {
+    padding: 73px 75px 73px 0;
+    display: flex;
+    justify-content: end;
+    border-radius: 8px;
+    background: url("../images/about-info-background.svg") no-repeat;
+  }
+
+  &__text {
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 20px;
+    line-height: 33px;
+    color: #D9F7F5;
+    max-width: 497px;
+    max-height: 290px;
+    margin: 0;
+  }
+
+  &__main-img {
+    position: absolute;
+    left: 265px;
+    top: 155px;
+  }
+
+}

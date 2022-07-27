@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700;800&family=Lato:wght@300;400&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=League+Spartan:wght@300;400;500;600;700&display=swap');
+
+@import './header.scss';
+
+@import './intro.scss';
+
+@import './footer.scss';
+
+@import './variables.scss';
+
+@import "./about.scss";
+
+@import "./capabilities.scss";
+
+@import "./benefits.scss";
+
+@import "./maintenance.scss";
+
+@import "./mission.scss";
+
+@import "./education.scss";
+
+* {
+    box-sizing: border-box;
+}
+
+h1, h2, h3, h4, p, ul {
+    margin: 0;
+}
+
+.container {
+    max-width: 1440px;
+    margin: auto;
+    padding: 0 136px;
+}
+
+body {
+    margin: 0;
+}
+
+.intro {
+    background: url("../images/background-top.svg") no-repeat;
+    background-size: cover;
+}
+
+.white {
+    color: #D9F7F5;
+}
+
+.color__grey {
+    color: #425667;
+}
+
+li {
+    list-style-type: none;
+}
+
+ul {
+    padding: 0;
+}
