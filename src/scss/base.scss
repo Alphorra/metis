@@ -51,6 +51,7 @@ body {
 
 .color__grey {
     color: #425667;
+    padding-left: 20px;
 }
 
 li {
@@ -59,4 +60,9 @@ li {
 
 ul {
     padding: 0;
+}
+
+table {
+    border-collapse: collapse;
+    border: 2px solid transparent;
 }

@@ -6,6 +6,7 @@
   &__wrapper {
     display: flex;
     align-items: center;
+    justify-content: space-between;
   }
 
 
@@ -36,9 +37,11 @@
     align-items: center;
     display: flex;
     max-width: 199px;
-    max-height: 92px;
+    min-height: 92px;
     border: 2px solid #202932;
     border-radius: 8px;
+    padding: 15px;
+
   }
 
   &__name {
@@ -48,6 +51,14 @@
 
   &__img {
     margin-right: 10px;
+  }
+
+  &__list {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(4, 1fr);
+    grid-column-gap: 74px;
+    grid-row-gap: 32px;
   }
 
 }
