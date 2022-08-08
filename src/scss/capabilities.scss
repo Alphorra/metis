@@ -40,6 +40,7 @@
   &__table {
     padding: 36px;
     text-align: left;
+    width: 100%;
   }
 
   &__advantages-items {
@@ -86,10 +87,20 @@
 
   }
 
+  &__cell {
+    padding: 5px 0;
+    &:not(:first-child) {
+      padding-left: 15px;
+    }
+    &:not(:last-child) {
+      padding-right: 15px;
+    }
+  }
+
   &__technical {
     border: 2px solid #171e24;
     border-radius: 8px;
     padding: 30px;
+    min-width: 620px;
   }
-
 }

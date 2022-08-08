@@ -22,6 +22,10 @@
 
 @import "./education.scss";
 
+@import "./faq.scss";
+
+@import "./footer.scss";
+
 * {
     box-sizing: border-box;
 }
@@ -38,10 +42,11 @@ h1, h2, h3, h4, p, ul {
 
 body {
     margin: 0;
+    font-family: 'Nunito';
 }
 
 .intro {
-    background: url("../images/background-top.svg") no-repeat;
+    background: url("../images/background-top.jpg") no-repeat;
     background-size: cover;
 }
 
@@ -49,9 +54,8 @@ body {
     color: #D9F7F5;
 }
 
-.color__grey {
+.grey {
     color: #425667;
-    padding-left: 20px;
 }
 
 li {
