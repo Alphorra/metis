@@ -1,0 +1,91 @@
+.faq {
+  background-color: $c-dark;
+  color: #D9F7F5;
+
+  &__wrapper {
+    display:flex;
+    padding: 105px 0 105px;
+    justify-content: space-around;
+    align-items: end;
+
+    @media (max-width: 1024px) {
+      padding: 50px 0 50px;
+    }
+    
+    @media (max-width: 375px) {
+      flex-direction: column;
+    }
+
+  }
+
+  &__title-wrapper {
+    position: relative;
+
+    @media (max-width: 375px) {
+      margin-bottom: 20px;
+      text-align: center;
+    }
+
+  }
+
+  &__title {
+    max-width: 275px;
+    font-size: 42px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    line-height: 50px;
+    color: #2ADACC;
+    position: absolute;
+    top: 2%;
+    left: -12%;
+    
+    @media (max-width: 1024px) {
+      left: 0%;
+      top: -16%;
+    }
+
+    @media (max-width: 375px) {
+      position: static;
+    }
+
+  }
+
+  &__items {
+    border-bottom: 2px solid #202932;
+  }
+
+  &__item-name {
+   font-family: 'Poppins', sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 30px;
+    padding: 10px 0 10px;
+    display: flex;
+    justify-content: space-between;
+
+    &:after {
+      content:url("../images/arrow-down.svg");
+    }
+    
+    @media (max-width: 1024px) {
+      font-size: 18px;
+      font-weight: 500;
+    }
+
+  }
+
+  &__item-text {
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    display:none;
+  }
+
+  &__img {
+    @media (max-width: 375px) {
+      display: none;
+    }
+
+  }
+
+}
