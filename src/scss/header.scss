@@ -3,10 +3,36 @@
     display: flex;
     padding-top: 15px;
     align-items: center;
+
+    @media (max-width: 1024px) {
+      justify-content: space-around;
+    }
+
+    @media (max-width: 375px) {
+      justify-content: start;
+    }
+
   }
 
   &__menu {
     padding-left: 290px;
+
+    @media (max-width: 1280px) {
+      padding-left: 110px;
+    }
+
+    @media (max-width: 1024px) {
+      padding-left: 30px;
+    }
+
+    @media (max-width: 767px) {
+      padding-left: 55px;
+    }
+
+    @media (max-width: 375px) {
+      display: none;
+    }
+
   }
 
   &__item {
@@ -16,6 +42,13 @@
     color: #D9F7F5;
     text-decoration: none;
     margin-right: 32px;
+
+    @media (max-width: 1024px) {
+      font-size: 12px;
+      font-weight: 600;
+      margin-right: 10px;
+    }
+    
   }
 
   &__btn-black {
@@ -24,11 +57,26 @@
     font-size: 16px;
     line-height: 22px;
     color: #2ADACC;
-    padding: 9px 21px;
+    display: flex;
+    justify-content: center;
     border: 2px solid #2ADACC;
     border-radius: 6px;
     font-weight: 700;
-    max-width: 146px;
+    min-height: 40px;
+    align-items: center;
+    min-width: 146px;
+    
+    @media (max-width: 1024px) {
+      font-size: 14px;
+      line-height: 20px;
+      font-weight: 600;
+      min-width: 120px;
+    }
+
+    @media (max-width: 375px) {
+      display: none;
+    }
+    
 
   }
 
@@ -36,3 +84,4 @@
     margin-right: 16px;
   }
 }
+

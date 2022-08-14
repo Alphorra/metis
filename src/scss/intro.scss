@@ -18,6 +18,12 @@
     font-weight: 800;
     line-height: 68px;
     margin-bottom: 32px;
+
+    @media (max-width: 1024px) {
+      font-size: 55px;
+      line-height: 60px;
+    }
+
   }
 
   &__text-bigger {
@@ -27,6 +33,12 @@
     line-height: 48px;
     color: #D9F7F5;
     margin-bottom: 20px;
+
+    @media (max-width: 1024px) {
+      font-size: 28px;
+      line-height: 40px;
+    }
+
   }
 
   &__text {
@@ -36,9 +48,16 @@
     line-height: 38px;
     color: #D9F7F5;
     margin-bottom: 33px;
+
+    @media (max-width: 1024px) {
+      font-size: 16px;
+      line-height: 30px;
+    }
+
   }
 
   &__btn-green {
+    display: block;
     border: 2px solid #2ADACC;
     border-radius: 6px;
     background-color: #2ADACC;
@@ -49,6 +68,12 @@
     text-decoration: none;
     font-family: 'Nunito Sans', sans-serif;
     font-weight: 700;
+
+    @media (max-width: 1024px) {
+      font-size: 14px;
+      line-height: 18px;
+    }
+
   }
 
 }

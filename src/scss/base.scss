@@ -22,6 +22,10 @@
 
 @import "./education.scss";
 
+@import "./faq.scss";
+
+@import "./footer.scss";
+
 * {
     box-sizing: border-box;
 }
@@ -34,24 +38,37 @@ h1, h2, h3, h4, p, ul {
     max-width: 1440px;
     margin: auto;
     padding: 0 136px;
+    
+    @media (max-width: 1280px) {
+        padding: 0 60px;
+    }
+
+    @media (max-width: 767px) {
+        padding: 0 40px;
+    }
 }
 
 body {
     margin: 0;
+    font-family: 'Nunito';
 }
 
 .intro {
-    background: url("../images/background-top.svg") no-repeat;
+    background: url("../images/background-top.jpg") no-repeat;
     background-size: cover;
+
+    @media (max-width: 375px) {
+        background: url("../images/background-iphone.jpg") no-repeat;
+        background-size: cover;
+    }
 }
 
 .white {
     color: #D9F7F5;
 }
 
-.color__grey {
+.grey {
     color: #425667;
-    padding-left: 20px;
 }
 
 li {

@@ -6,6 +6,11 @@
 
   &__wrapper {
     padding: 105px 0 77px;
+
+    @media (max-width: 1024px) {
+      padding: 15px 0 10px;
+    }
+
   }
 
   &__info {
@@ -14,6 +19,13 @@
     justify-content: end;
     border-radius: 8px;
     background: url("../images/about-info-background.svg") no-repeat;
+    
+    @media (max-width: 1024px) {
+      justify-content: center;
+      text-align: center;
+      padding: 40px 0px 40px;
+    }
+    
   }
 
   &__text {
@@ -24,12 +36,21 @@
     max-width: 497px;
     max-height: 290px;
     margin: 0;
+
+    @media (max-width: 375px) {
+      max-height: none;
+    }
+
   }
 
   &__main-img {
     position: absolute;
     left: 265px;
     top: 155px;
+
+    @media (max-width: 1024px) {
+        display: none;
+    }
   }
 
 }
