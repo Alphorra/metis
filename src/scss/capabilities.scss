@@ -5,11 +5,14 @@
   &__advantages {
     max-width: 500px;
 
+    @media (max-width: 1280px) {
+      margin-bottom: 30px;
+    }
+
     @media (max-width: 1024px) {
       margin-bottom: 30px;
       text-align: center;
     }
-
   }
 
   &__wrapper {
@@ -17,12 +20,17 @@
     justify-content: space-between;
     padding: 120px 0 150px;
 
-    @media (max-width: 1024px) {
-      align-items: center;
+
+    @media (max-width: 1280px) {
       flex-direction: column;
-      padding: 50px 0 60px;
+      align-items: center;
+      text-align: center;
+      padding: 70px 0 40px;
     }
 
+    @media (max-width: 1024px) {
+      padding: 50px 0 60px;
+    }
   }
 
  &__title {
@@ -37,7 +45,6 @@
      font-size: 36px;
      line-height: 54px;
    }
-
  }
 
   &__text {
@@ -50,7 +57,6 @@
       font-size: 16px;
       line-height: 20px;
     }
-
   }
 
   &__table-top {
@@ -74,7 +80,6 @@
     list-style-type: none;
     margin: 0;
     padding: 0;
-
   }
 
   &__advantages-item {
@@ -93,7 +98,6 @@
     @media (max-width: 1024px) {
       font-size: 22px;
     }
-
   }
 
   &__advantages-text {
@@ -106,14 +110,12 @@
     line-height: 22px;
     font-weight: 500;
     border-collapse: collapse;
-
   }
 
   td,th {
     max-width: 177px;
     border: 1px solid #425667;
     min-width: 177px;
-
   }
 
   &__cell {
@@ -132,7 +134,7 @@
     padding: 30px;
     min-width: 620px;
 
-    @media (max-width: 375px) {
+    @media (max-width: 767px) {
       display: none;
     }
   }

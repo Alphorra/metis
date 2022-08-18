@@ -2,13 +2,11 @@
 
 @import url('https://fonts.googleapis.com/css2?family=League+Spartan:wght@300;400;500;600;700&display=swap');
 
+@import './variables.scss';
+
 @import './header.scss';
 
 @import './intro.scss';
-
-@import './footer.scss';
-
-@import './variables.scss';
 
 @import "./about.scss";
 
@@ -30,6 +28,11 @@
     box-sizing: border-box;
 }
 
+body {
+    margin: 0;
+    font-family: 'Nunito Sans', sans-serif;
+}
+
 h1, h2, h3, h4, p, ul {
     margin: 0;
 }
@@ -39,25 +42,20 @@ h1, h2, h3, h4, p, ul {
     margin: auto;
     padding: 0 136px;
     
-    @media (max-width: 1280px) {
+    @media (max-width: 1024px) {
         padding: 0 60px;
     }
 
     @media (max-width: 767px) {
-        padding: 0 40px;
+        padding: 0 20px;
     }
-}
-
-body {
-    margin: 0;
-    font-family: 'Nunito';
 }
 
 .intro {
     background: url("../images/background-top.jpg") no-repeat;
     background-size: cover;
 
-    @media (max-width: 375px) {
+    @media (max-width: 767px) {
         background: url("../images/background-iphone.jpg") no-repeat;
         background-size: cover;
     }

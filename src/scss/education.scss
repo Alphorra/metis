@@ -11,12 +11,8 @@
     @media (max-width: 1024px) {
       flex-direction: column;
       padding: 50px 0 50px;
-
     }
-
   }
-
-
 
   &__title {
     font-family: 'Poppins', sans-serif;
@@ -32,22 +28,18 @@
 
     &-wrapper {
       max-width: 500px;
-
     }
   }
 
   &__text {
     font-family: 'Nunito Sans', sans-serif;
     font-size: 20px;
-    font-weight: 400;
     line-height: 28px;
     margin-bottom: 45px;
 
     @media (max-width: 1024px) {
       text-align: center;
     }
-
-
   }
 
   &__img {
@@ -65,7 +57,6 @@
       align-items: center;
       margin-bottom: 32px;
     }
-
   }
 
   &__name {
@@ -78,13 +69,11 @@
       color: #2ADACC;
       cursor: pointer;
     }
-
   }
-
 }
 
  iframe {
-  @media (max-width: 375px) {
+  @media (max-width: 767px) {
     max-width: 100%;
   }
 }

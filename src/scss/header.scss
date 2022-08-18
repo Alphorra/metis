@@ -8,47 +8,42 @@
       justify-content: space-around;
     }
 
-    @media (max-width: 375px) {
+    @media (max-width: 767px) {
       justify-content: start;
     }
-
   }
 
   &__menu {
-    padding-left: 290px;
-
-    @media (max-width: 1280px) {
-      padding-left: 110px;
-    }
-
+    margin: auto;
+    
     @media (max-width: 1024px) {
-      padding-left: 30px;
+      justify-content: space-between;
+      display: flex;
     }
 
     @media (max-width: 767px) {
-      padding-left: 55px;
-    }
-
-    @media (max-width: 375px) {
       display: none;
     }
-
   }
 
   &__item {
     font-family: 'Nunito Sans', sans-serif;
     font-size: 16px;
     font-weight: 600;
-    color: #D9F7F5;
+    color: $c-light;
     text-decoration: none;
     margin-right: 32px;
+
+    @media (max-width: 1280px) {
+      margin-right: 15px;
+      font-size: 14px;
+    }
 
     @media (max-width: 1024px) {
       font-size: 12px;
       font-weight: 600;
       margin-right: 10px;
     }
-    
   }
 
   &__btn-black {
@@ -66,22 +61,33 @@
     align-items: center;
     min-width: 146px;
     
-    @media (max-width: 1024px) {
+    @media (max-width: 1280px) {
       font-size: 14px;
       line-height: 20px;
       font-weight: 600;
+    }
+    
+    @media (max-width: 1024px) {
+      font-size: 12px;
+      line-height: 18px;
+      font-weight: 500;
       min-width: 120px;
     }
 
-    @media (max-width: 375px) {
+    @media (max-width: 767px) {
       display: none;
     }
-    
-
   }
 
   &__logo:first-child {
     margin-right: 16px;
+  }
+  
+  &__logo {
+    
+    @media (max-width: 1024px) {
+      margin-right: 5px;
+    }
   }
 }
 

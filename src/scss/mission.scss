@@ -13,12 +13,10 @@
       text-align: center;
     }
 
-    @media (max-width: 375px) {
+    @media (max-width: 767px) {
       padding: 30px 0 25px;
     }
-
   }
-
 
   &__title {
     font-family: 'Poppins', sans-serif;
@@ -28,6 +26,12 @@
     color: #2ADACC;
     max-width: 568px;
     margin-bottom: 55px;
+
+    &-wrapper {
+      @media (max-width: 1280px) {
+        margin-right: 20px;
+      }
+    }
   }
 
   &__title-before {
@@ -48,7 +52,6 @@
     &:nth-child(3) {
       margin-bottom: 24px;
     }
-
   }
 
   &__img-wrapper {
@@ -63,7 +66,5 @@
     @media (max-width: 1024px) {
       display: none;
     }
-
   }
-
 }
